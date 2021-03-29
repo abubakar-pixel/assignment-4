@@ -1,0 +1,15 @@
+#main-bg {
+  width: 94%;
+  height: 80%;
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  background-color: rgba(89, 110, 117, 0.548);
+  display: flex;
+}
+#main-bg.off {
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}

@@ -1,0 +1,36 @@
+.loginPage {
+  background-color: rgba(90, 76, 36, 0.521);
+  /* width: 70vw; */
+  height: 95vh;
+}
+.loginPage form {
+  width: 30%;
+  height: 70vh;
+  /* background-color: rgba(255, 99, 71, 0.541); */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  z-index: 5;
+  margin: auto;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 2px 2px 3px #000, -2px 2px 3px #fff;
+}
+
+.loginPage > form > input {
+  padding: 5px;
+  position: relative;
+  outline: none;
+  margin-bottom: 2rem;
+}
+
+.loginPage > form > label,
+.submit {
+  font-weight: bold;
+}
+
+.submit {
+  width: 50%;
+  margin: 1rem auto;
+  outline: none;
+}

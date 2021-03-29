@@ -1,0 +1,33 @@
+form {
+  margin-top: 15%;
+}
+
+#buyNowButton {
+  padding-left: 5rem;
+  margin-left: 7rem;
+  position: relative;
+}
+
+input {
+  position: absolute;
+  padding: 0.6rem 0.5rem;
+  z-index: 1;
+}
+
+input {
+  position: absolute;
+  padding: 0.6rem 0.5rem;
+  z-index: 1;
+}
+
+#buyNowButton,
+input {
+  border-radius: 3rem;
+  border: 1px solid white;
+}
+
+p {
+  font-style: italic;
+  margin-top: 5%;
+  font-size: 0.75rem;
+}

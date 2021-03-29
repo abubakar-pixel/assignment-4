@@ -1,0 +1,43 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+a {
+  text-decoration: none;
+}
+
+.whiteText {
+  color: white;
+}
+
+.blackText {
+  color: black;
+  font-weight: bold;
+}
+
+.redText {
+  color: red;
+}
+
+li {
+  list-style: none;
+}
+
+input,
+button {
+  padding: 2%;
+}
+
+button {
+  background-color: rgba(70, 55, 15, 0.219);
+}

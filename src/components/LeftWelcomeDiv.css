@@ -1,0 +1,12 @@
+#LefttDiv {
+  width: 55%;
+  height: 100%;
+  display: block;
+}
+
+#welcomeText {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-top: 10%;
+  text-align: center;
+}

@@ -1,0 +1,50 @@
+.contactPage {
+  background-color: rgba(90, 76, 36, 0.521);
+  width: 100vw;
+  height: 100vh;
+  padding: 5%;
+}
+
+section {
+  margin: 4rem;
+}
+
+.div1,
+.contactDiv {
+  justify-content: space-evenly;
+}
+.contactDiv {
+  display: flex;
+}
+
+.contactDiv p {
+  margin: 0 2%;
+  text-align: left;
+}
+
+.div1 {
+  display: flex;
+}
+
+.mainAddress {
+  width: 15%;
+}
+.contactDetails {
+  width: 80%;
+}
+
+h2,
+h3,
+p {
+  text-align: center;
+  margin: 5px;
+}
+
+p {
+  font-size: 1rem;
+}
+
+img {
+  width: 90vw;
+  height: 40vw;
+}

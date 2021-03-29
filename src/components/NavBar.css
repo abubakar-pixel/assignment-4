@@ -1,0 +1,50 @@
+/* h1 {
+  color: red;
+}
+
+li {
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+}
+
+
+
+/* Left NavBar Section */
+#LefttDiv {
+  width: 55%;
+  height: 100%;
+  display: block;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5%;
+  position: relative;
+}
+
+nav ul {
+  display: none;
+  position: absolute;
+  left: 21.8%;
+  top: 100%;
+}
+
+nav li:hover > ul {
+  display: block;
+}
+
+nav li:focus-within > ul {
+  display: block;
+}
+
+nav li > ul {
+  display: none;
+}
+
+nav li:hover > ul {
+  display: block;
+}
